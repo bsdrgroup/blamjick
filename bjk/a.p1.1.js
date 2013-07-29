@@ -12,10 +12,12 @@ This is bjk Alpha Prerelease 1.1 : the very first **actual** version of blamjick
 
 Everything under bsdrgroup/blamjick is released under the GNU General Public License version 3.
 
+http://memedad.com/memes/21068.jpg
+
 */
 /*
 
-BLAMJICK vA.P1.1
+BLAMJICK vA.P1.1s3
 
 Copyright (C) 2013  the BSDR GRroup
 
@@ -33,3 +35,13 @@ JavaScript is a trademark or registered trademark of Oracle in the U.S. and othe
 GitHub is © 2013 GitHub, Inc.
 
 */
+alert("Welcome to BLAMJICK.");
+var userAge = prompt("Let's begin. We'll start by asking your age. Please enter in base10");
+if (userAge<10) {
+ alert("We are sorry. You cannot play this game.");
+} else {
+ alert("Press 'OK' to continue.");
+};
+var userName = prompt("What is your name? You can enter your real name or a fake one.");
+alert("Hello, " + userName + "!");
+alert("Blamjick is a Zombie game. In order to win, you will have to be smart and clever.");
