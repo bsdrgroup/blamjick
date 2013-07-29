@@ -17,9 +17,9 @@ http://memedad.com/memes/21068.jpg
 */
 /*
 
-BLAMJICK vA.P1.1s3
+BLAMJICK vA.P1.1s4
 
-Copyright (C) 2013  the BSDR GRroup
+Copyright (C) 2013  the BSDR Group
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
