@@ -12,7 +12,7 @@ This is bjk Alpha Prerelease 1.1 : the very first **actual** version of blamjick
 
 Everything under bsdrgroup/blamjick is released under the GNU General Public License version 3.
 
-/*
+*/
 /*
 
 BLAMJICK vA.P1.1
@@ -32,4 +32,4 @@ Copyright (C) 2013  the BSDR GRroup
 JavaScript is a trademark or registered trademark of Oracle in the U.S. and other countries.
 GitHub is © 2013 GitHub, Inc.
 
-/*
+*/
