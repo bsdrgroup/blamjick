@@ -1,9 +1,9 @@
 /*
  ______   _        _______  _______ __________________ _______  _       
-(  ___ \ ( \      (  ___  )(       )\__    _/\__   __/(  ____ \| \    /\
-| (   ) )| (      | (   ) || () () |   )  (     ) (   | (    \/|  \  / /
-| (__/ / | |      | (___) || || || |   |  |     | |   | |      |  (_/ / 
-|  __ (  | |      |  ___  || |(_)| |   |  |     | |   | |      |   _ (  
+(  ___ \ ( \   α  (  ___  )(       )\__    _/\__   __/(  ____ \| \    /\
+| (   ) )| (  p1  | (   ) || () () |   )  (     ) (   | (    \/|  \  / /
+| (__/ / | |   1  | (___) || || || |   |  |     | |   | |      |  (_/ / 
+|  __ (  | |  s6  |  ___  || |(_)| |   |  |     | |   | |      |   _ (     http://network-science.de
 | (  \ \ | |      | (   ) || |   | |   |  |     | |   | |      |  ( \ \ 
 | )___) )| (____/\| )   ( || )   ( ||\_)  )  ___) (___| (____/\|  /  \ \
 |/ \___/ (_______/|/     \||/     \|(____/   \_______/(_______/|_/    \/
@@ -12,12 +12,35 @@ This is bjk Alpha Prerelease 1.1 : the very first **actual** version of blamjick
 
 Everything under bsdrgroup/blamjick is released under the GNU General Public License version 3.
 
-http://memedad.com/memes/21068.jpg
 
-*/
-/*
 
-BLAMJICK vA.P1.1s5
+http://memedad.com/memes/21485.jpg
+
+*//*
+    _-`````-,           ,- '- .
+  .'   .- - |          | - -.  `.
+ /.'  /                     `.   \
+:/   :      _...   ..._      ``   :
+::   :     /._ .`:'_.._\.    ||   :
+::    `._ ./  ,`  :    \ . _.''   .
+`:.      /   |  -.  \-. \\_      /
+  \:._ _/  .'   .@)  \@) ` `\ ,.'
+     _/,--'       .- .\,-.`--`.
+       ,'/''     (( \ `  )    
+        /'/'  \    `-'  (           asciiart by Vijay Kumar Bagavath Singh (GLUG-t/India) 
+         '/''  `._,-----'
+          ''/'    .,---'
+           ''/'      ;:
+             ''/''  ''/
+               ''/''/''
+                 '/'/'
+                  `;
+*//*
+
+BLAMJICK ΆΛΦΑ PRERELEASE 1.1 SNAPSHOT 6
+or
+BJK Α.P1.1S6
+bjkα-p1-1s6
 
 Copyright (C) 2013  the BSDR Group
 
@@ -35,13 +58,13 @@ JavaScript is a trademark or registered trademark of Oracle in the U.S. and othe
 GitHub is © 2013 GitHub, Inc.
 
 */
-alert("Welcome to BLAMJICK.");
-var userAge = prompt("Let's begin. We'll start by asking your age. Please enter in base10");
+alert("Welcome to BLAMJICK.");// welcoming
+var userAge = prompt("Let's begin. We'll start by asking your age. Please enter in base10");//asking userAge
 if (userAge<10) {
- alert("We are sorry. You cannot play this game.");
+ alert("We are sorry. You cannot play this game.");//if userAge is less than but not equal to 10 it will say that you can't play the game
 } else {
- alert("Press 'OK' to continue.");
-};
-var userName = prompt("What is your name? You can enter your real name or a fake one.");
-alert("Hello, " + userName + "!");
-alert("Blamjick is a Zombie game. In order to win, you will have to be smart and clever.");
+ alert("Press 'OK' to continue.");//if userAge is greater than or equal to 11 it will let them continue
+} //BF a.p1.1s6 "Removed unnecessary semicolon on line 67"
+var userName = prompt("What is your name? You can enter your real name or a fake one.");//asking userName
+alert("Hello, " + userName + "!");//greeting user
+alert("Blamjick is a Puzzle game. There are also a couple of zombies. In order to win, you will have to be smart and clever.");// about Blamjick
