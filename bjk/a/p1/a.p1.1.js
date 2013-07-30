@@ -3,7 +3,7 @@
 (  ___ \ ( \   α  (  ___  )(       )\__    _/\__   __/(  ____ \| \    /\
 | (   ) )| (  p1  | (   ) || () () |   )  (     ) (   | (    \/|  \  / /
 | (__/ / | |   1  | (___) || || || |   |  |     | |   | |      |  (_/ / 
-|  __ (  | |  s6  |  ___  || |(_)| |   |  |     | |   | |      |   _ (     http://network-science.de
+|  __ (  | |  s7  |  ___  || |(_)| |   |  |     | |   | |      |   _ (     http://network-science.de
 | (  \ \ | |      | (   ) || |   | |   |  |     | |   | |      |  ( \ \ 
 | )___) )| (____/\| )   ( || )   ( ||\_)  )  ___) (___| (____/\|  /  \ \
 |/ \___/ (_______/|/     \||/     \|(____/   \_______/(_______/|_/    \/
@@ -37,10 +37,10 @@ http://memedad.com/memes/21485.jpg
                   `;
 *//*
 
-BLAMJICK ΆΛΦΑ PRERELEASE 1.1 SNAPSHOT 6
+BLAMJICK ΆΛΦΑ PRERELEASE 1.1 SNAPSHOT 7
 or
-BJK Α.P1.1S6
-bjkα-p1-1s6
+BJK Α.P1.1S7
+bjkα-p1-1s7
 
 Copyright (C) 2013  the BSDR Group
 
@@ -62,9 +62,10 @@ alert("Welcome to BLAMJICK.");// welcoming
 var userAge = prompt("Let's begin. We'll start by asking your age. Please enter in base10");//asking userAge
 if (userAge<10) {
  alert("We are sorry. You cannot play this game.");//if userAge is less than but not equal to 10 it will say that you can't play the game
+ window.location = "http://github.com/bsdrgroup/blamjick"
 } else {
  alert("Press 'OK' to continue.");//if userAge is greater than or equal to 11 it will let them continue
-} //BF a.p1.1s6 "Removed unnecessary semicolon on line 67"
+}
 var userName = prompt("What is your name? You can enter your real name or a fake one.");//asking userName
 alert("Hello, " + userName + "!");//greeting user
-alert("Blamjick is a Puzzle game. There are also a couple of zombies. In order to win, you will have to be smart and clever.");// about Blamjick
+alert("Blamjick is a puzzle game. There are also a couple of zombies. In order to win, you will have to be smart and clever.");// about Blamjick
